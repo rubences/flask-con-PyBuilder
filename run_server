@@ -2,7 +2,7 @@
 #
 #   This script will run the hello world application in debug mode.
 #
-#   author: Michael Gruber
+#   author: RJ
 
 from sys import path
 path.append("src/main/python")

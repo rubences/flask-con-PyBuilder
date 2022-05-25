@@ -14,4 +14,4 @@ script: "pyb"
 
 notifications:
   email:
-  - aelgru@gmail.com
+  - rubenjuarezcadiz@gmail.com

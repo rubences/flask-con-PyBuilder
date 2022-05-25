@@ -18,7 +18,7 @@
     Hello world service.
 """
 
-__author__ = 'Michael Gruber'
+__author__ = 'RJ'
 
 
 class HelloService(object):
