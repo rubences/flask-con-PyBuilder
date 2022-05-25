@@ -91,6 +91,14 @@ optional = false
 python-versions = ">=3.8"
 
 [[package]]
+name = "pybuilder"
+version = "0.13.5"
+description = "PyBuilder â an easy-to-use build automation tool for Python."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "werkzeug"
 version = "2.1.2"
 description = "The comprehensive WSGI web application library."
@@ -116,7 +124,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "4c313263e84cd1839bf46fff0d62589d26abcc89ac42c52c4dccbef5593632cf"
+content-hash = "29c3e6c8d0c0a95304900cacf5e3caa6dc5c978a8f09233462ad907a30ec2979"
 
 [metadata.files]
 click = [
@@ -205,6 +213,10 @@ numpy = [
     {file = "numpy-1.22.2-cp39-cp39-win_amd64.whl", hash = "sha256:59153979d60f5bfe9e4c00e401e24dfe0469ef8da6d68247439d3278f30a180f"},
     {file = "numpy-1.22.2-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4a176959b6e7e00b5a0d6f549a479f869829bfd8150282c590deee6d099bbb6e"},
     {file = "numpy-1.22.2.zip", hash = "sha256:076aee5a3763d41da6bef9565fdf3cb987606f567cd8b104aded2b38b7b47abf"},
+]
+pybuilder = [
+    {file = "pybuilder-0.13.5-py3-none-any.whl", hash = "sha256:fc69d3f5bc26fdf6a38134e60a0ac98ff358c387442222d94273f7d949b465fb"},
+    {file = "pybuilder-0.13.5.tar.gz", hash = "sha256:16276416e1f19a47214eba474515662cc85f73324723214120e7a635b849266b"},
 ]
 werkzeug = [
     {file = "Werkzeug-2.1.2-py3-none-any.whl", hash = "sha256:72a4b735692dd3135217911cbeaa1be5fa3f62bffb8745c5215420a03dc55255"},
